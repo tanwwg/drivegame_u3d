@@ -8,13 +8,16 @@ public class GameController : MonoBehaviour
     public Vector2 moveSpeed;
 
     public UnityEvent onCollide;
+
+    public Rigidbody2D body;
     
     // Update is called once per frame
     void FixedUpdate()
     {
         var moveAction = InputSystem.actions.FindAction("Move");  
         var moveValue = moveAction.ReadValue<Vector2>();
-        this.GetComponent<Rigidbody2D>().linearVelocity = Vector2.Scale(moveValue, moveSpeed);
+        
+        body.AddForce(Vector2.Scale(moveValue, moveSpeed));
     }
 
     private void OnCollisionEnter2D(Collision2D other)
