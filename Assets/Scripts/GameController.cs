@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -22,8 +23,19 @@ public class GameController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        if (other.gameObject.GetComponent<MovingEnemy>() == null) return;
         Debug.Log("COLLIDE! " + this.name + " to " + other.gameObject.name);
         onCollide.Invoke();
+    }
+
+    public void SetTimeScale(float scale)
+    {
+        Time.timeScale = scale;
+    }
+
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 
 }
