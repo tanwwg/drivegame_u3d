@@ -16741,6 +16741,7 @@ GameObject:
   - component: {fileID: 2011125856}
   - component: {fileID: 2011125855}
   - component: {fileID: 2011125859}
+  - component: {fileID: 2011125860}
   m_Layer: 10
   m_Name: MovingOpp
   m_TagString: Untagged
@@ -16909,6 +16910,34 @@ MonoBehaviour:
   rightCheck: {fileID: 925595111}
   speed: {x: 5, y: -5}
   body: {fileID: 2011125856}
+--- !u!114 &2011125860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011125854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7662d456fc04ce694541e0d620cd2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2011125857}
+        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+        m_MethodName: set_sprite
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  sprites: {fileID: 11400000, guid: ca9b9ec6e26ad4b2da37bee4cd70e39b, type: 2}
 --- !u!1 &2014477931
 GameObject:
   m_ObjectHideFlags: 0

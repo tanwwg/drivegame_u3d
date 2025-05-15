@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b271408f71b64e6f915759fa9b4ce75, type: 3}
+  m_Name: enemycars
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 0c88e0340c88a4f40845179b7fba56df, type: 3}
+  - {fileID: 21300000, guid: bb6f4dfef6275476e8ee75a6a47189e9, type: 3}
+  - {fileID: 21300000, guid: 69f6c55ccbd86409db29b8caaac9b56d, type: 3}
+  - {fileID: 21300000, guid: deacc2f6d552f443b957c87da1a1945e, type: 3}
+  - {fileID: 21300000, guid: d8dccfb21320349efaadc4c3784a4d0d, type: 3}
+  - {fileID: 21300000, guid: e8b93ecda221b45af98824ca7e0353a2, type: 3}
+  - {fileID: 21300000, guid: 3493209433bcc4f2d942ba3583903c42, type: 3}
+  - {fileID: 21300000, guid: 8416682a301d04fef9477f0380d322e3, type: 3}
+  - {fileID: 21300000, guid: 496b6a3a53fb44a7dbf2fff5720eae16, type: 3}
