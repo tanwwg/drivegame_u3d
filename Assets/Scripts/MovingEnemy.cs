@@ -19,11 +19,12 @@ public class MovingEnemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (leftCheck.IsOverlap())
+        if (leftCheck != null && leftCheck.IsOverlap())
         {
             body.linearVelocityX = speed.x;
         }  
-        else if (rightCheck.IsOverlap())
+        
+        if (rightCheck != null && rightCheck.IsOverlap())
         {
             body.linearVelocityX = -speed.x;
         }
