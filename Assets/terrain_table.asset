@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b271408f71b64e6f915759fa9b4ce75, type: 3}
+  m_Name: terrain_table
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: acef3645ad1664862b6fe06d187581b4, type: 3}
+  - {fileID: 21300000, guid: 8163eb9ec454e42fe9e06673ae5a4553, type: 3}
